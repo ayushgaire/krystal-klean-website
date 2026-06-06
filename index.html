@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krystal-Klean | 24/7 Commercial Cleaning Services in Marshall, MN</title>
+<meta name="description" content="Krystal-Klean delivers premium 24/7 commercial cleaning services in Marshall, MN. Office cleaning, apartment cleaning & post-construction cleanup. Call 612-669-3621 for a free quote.">
+<meta name="keywords" content="cleaning services Marshall MN, cleaning services Granite Falls MN, commercial cleaning Minnesota, office cleaning, post-construction cleanup, janitorial services">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://krystal-klean.com">
+<meta property="og:title" content="Krystal-Klean | 24/7 Commercial Cleaning in Marshall, MN">
+<meta property="og:description" content="Premium commercial cleaning that delivers instant results. Fast, reliable, trusted. Call 612-669-3621.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Krystal-Klean",
+  "image": "https://krystal-klean.com/og-image.jpg",
+  "telephone": "612-669-3621",
+  "email": "howardscot47@yahoo.com",
+  "address": {"@type":"PostalAddress","streetAddress":"305 N Hill St","addressLocality":"Marshall","addressRegion":"MN","postalCode":"56258","addressCountry":"US"},
+  "openingHours": "Mo-Su 00:00-23:59",
+  "description": "24/7 commercial cleaning services in Marshall, MN.",
+  "founder": "Scott Howard",
+  "areaServed": "Marshall, Granite Falls, Minnesota and surrounding region"
+}
+</script>
+</head>
+<body>
+
+<!-- AGENCY CREDIT -->
+<div class="credit-bar">
+  Powered by
+  <a href="https://codyza.com" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Codyza
+  </a>
+</div>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" onclick="goHome()" style="cursor:pointer">
+      <span class="mark">
+        <!-- broom mark -->
+        <svg viewBox="0 0 24 24" fill="none"><path d="M16.5 3.5l4 4-7 7-4-4 7-7z" fill="currentColor"/><path d="M9.5 10.5L3 17v4h4l6.5-6.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/><path d="M4 21l2-5M8 21l1-4M12 21l1-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      Krystal-Klean
+    </a>
+    <div class="nav-right">
+      <!-- combined split CTA: quote + compact call -->
+      <span class="cta-split">
+        <a class="quote" onclick="goQuote()">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          Free Quote
+        </a>
+        <a class="ring" href="tel:6126693621" aria-label="Call now">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" fill="currentColor"/></svg>
+        </a>
+      </span>
+      <button class="burger" id="openMenu" aria-label="Open menu"><span class="dots"><span></span><span></span><span></span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- SLIDE MENU -->
+<div class="menu-overlay" id="menuOverlay"></div>
+<nav class="menu-panel" id="menuPanel">
+  <div class="menu-head">
+    <span class="logo">Krystal-Klean</span>
+    <button class="menu-close" id="closeMenu" aria-label="Close menu">&times;</button>
+  </div>
+  <div class="menu-links">
+    <a onclick="navTo('home')">Home</a>
+    <a onclick="navTo('services')">Services</a>
+    <a onclick="navTo('about')">About Krystal-Klean</a>
+    <a onclick="navTo('contact')">Contact</a>
+    <a onclick="goQuote()">Careers / Hiring</a>
+  </div>
+  <a class="menu-hiring" href="tel:6126693621">
+    <span class="mh-badge">We're Hiring</span>
+    <span class="mh-line"><svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" fill="currentColor"/></svg>612-669-3621</span>
+    <span class="mh-name">Apply with Scott Howard</span>
+  </a>
+  <div class="menu-foot">Available 24/7 — Call anytime<a href="tel:6126693621">612-669-3621</a></div>
+</nav>
+
+<!-- ================= HOME PAGE ================= -->
+<div class="page active" id="homePage">
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="wrap hero-inner">
+    <span class="hero-tag"><span class="pulse"></span>24/7 Emergency &amp; Scheduled Service · Marshall &amp; Granite Falls, MN</span>
+    <h1><span class="accent">Reliable, trusted and quality.</span></h1>
+    <p class="sub">We clean. We restore. We transform commercial spaces into spotless environments you can trust.</p>
+    <div class="hero-cta">
+      <button class="btn btn-primary" onclick="goQuote()">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        Get Free Quote
+      </button>
+      <a href="tel:6126693621" class="btn btn-ghost">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" fill="currentColor"/></svg>
+        Call Now
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<div class="trust"><div class="wrap"><div class="trust-grid">
+  <div class="trust-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span>24/7 Availability</span></div>
+  <div class="trust-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Trusted Professionals</span></div>
+  <div class="trust-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" fill="currentColor"/></svg></span><span>Call 24/7</span></div>
+  <div class="trust-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M14 2l-2 2 4 4 2-2-4-4zM12 4L4 12v4h4l8-8" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><span>Commercial-Grade Equipment</span></div>
+</div></div></div>
+
+<!-- GALLERY STRIP: cleaning tools/objects -->
+<div class="gallery">
+  <div class="gal-grid">
+    <div class="gal-item" data-label="Pro brooms & brushes"><img src="images/brooms.jpg" alt="Broom and cleaning brushes"></div>
+    <div class="gal-item" data-label="Spray & wipe down"><img src="images/spray.jpg" alt="Spray bottle cleaning"></div>
+    <div class="gal-item" data-label="Mop & floor care"><img src="images/mop.jpg" alt="Mopping floor"></div>
+    <div class="gal-item" data-label="Paper towels & supplies"><img src="images/papertowels.jpg" alt="Cleaning supplies and paper towels"></div>
+    <div class="gal-item" data-label="Spotless results"><img src="images/spotless.jpg" alt="Clean office result"></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="pad services reveal" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Our Services</span>
+      <h2>Premium cleaning for every commercial space</h2>
+      <p>Specialized, results-driven cleaning solutions engineered for businesses that can't afford to look anything less than spotless.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc-card">
+        <div class="svc-img" style="background-image:url('images/service-office.jpg')">
+          <span class="svc-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Office &amp; Corporate Cleaning</h3>
+          <p>Professional spaces that impress clients instantly. Spotless desks, floors, and common areas that reflect your brand's standards.</p>
+          <a class="svc-link" onclick="goQuote()">Request Service <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="svc-card">
+        <div class="svc-img" style="background-image:url('images/service-apartment.jpg')">
+          <span class="svc-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M3 21V10l9-7 9 7v11M9 21v-7h6v7" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Apartment / Multi-Unit Cleaning</h3>
+          <p>Tenant-ready spotless units every time. Fast turnovers and deep cleans that keep your properties rented and your reviews glowing.</p>
+          <a class="svc-link" onclick="goQuote()">Request Service <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="svc-card">
+        <div class="svc-img" style="background-image:url('images/service-construction.jpg')">
+          <span class="svc-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M14 2l-2 2 4 4 2-2-4-4zM12 4L4 12v4h4l8-8" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Post-Construction Deep Cleanup</h3>
+          <p>From chaos to clean, fast turnaround. Dust, debris, and residue removed so your finished build is ready to show and use.</p>
+          <a class="svc-link" onclick="goQuote()">Request Service <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="pad why reveal">
+  <div class="wrap why-layout">
+    <div class="why-visual"><div class="badge"><strong>24/7</strong><span>Call us anytime, day or night</span></div></div>
+    <div>
+      <span class="eyebrow">Why Krystal-Klean Dominates</span>
+      <h2 style="font-size:clamp(28px,4vw,42px);margin-bottom:22px;color:var(--ink)">The trusted name in commercial cleaning</h2>
+      <ul class="why-list">
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4 10-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h4>Deeper commercial-grade cleaning</h4><p>Industrial equipment and proven processes that go beyond surface-level tidying.</p></div></li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4 10-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h4>24/7 availability without delays</h4><p>Around-the-clock scheduling that works with your business hours, not against them.</p></div></li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4 10-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h4>Trusted by local businesses</h4><p>A respected local authority brand built on reliability and consistent results across Marshall, Granite Falls, and the surrounding region.</p></div></li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4 10-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h4>High-quality equipment &amp; trained staff</h4><p>Disciplined, professional crews equipped to handle any commercial cleaning challenge.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="pad about reveal" id="about">
+  <div class="wrap about-layout">
+    <div>
+      <span class="eyebrow">About Krystal-Klean</span>
+      <h2>Built on reliability, discipline, and professional excellence.</h2>
+      <p>Krystal-Klean was founded on a simple, uncompromising mission — deliver spotless environments with unmatched speed and consistency. We treat every commercial space as a reflection of our reputation.</p>
+      <p>From corporate offices to multi-unit properties and post-construction sites, our crews bring the same standard: thorough, dependable, and always on time.</p>
+      <div class="owner"><span class="av">SH</span><div><b>Scott Howard</b><span>Owner, Krystal-Klean</span></div></div>
+    </div>
+    <div class="about-img"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="pad contact reveal" id="contact">
+  <div class="wrap contact-inner">
+    <span class="urgency"><span class="pulse"></span>Available 24/7 — Call Anytime</span>
+    <h2>Ready for a spotless space? Call now.</h2>
+    <p class="lead">Call to schedule a walkthrough — we provide free quotes after seeing your space in person. Ask about hiring opportunities too.</p>
+    <a href="tel:6126693621" class="phone-big">
+      <span class="ring"><svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" fill="currentColor"/></svg></span>
+      612-669-3621
+    </a>
+    <div class="cta-row">
+      <button class="btn btn-white" onclick="goQuote()">Get Free Quote</button>
+      <button class="btn btn-outline" onclick="goQuote()">Hiring Opportunities</button>
+    </div>
+    <div class="addr"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="2"/></svg>305 N Hill St, Marshall, MN 56258</div>
+  </div>
+</section>
+
+</div><!-- /homePage -->
+
+<!-- ================= QUOTE PAGE ================= -->
+<div class="page" id="quotePage">
+  <section class="qp-hero">
+    <div class="qbg"></div>
+    <div class="wrap qp-hero-inner">
+      <a class="qp-back" onclick="goHome()"><svg viewBox="0 0 24 24" fill="none"><path d="M19 12H5M11 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Back to Home</a>
+      <h1>Get Your Free Quote</h1>
+      <p>Call or text Scott Howard to schedule a free on-site visit. Quotes are given after we view your space in person — call anytime, 24/7.</p>
+    </div>
+  </section>
+  <section class="qp-body">
+    <div class="wrap qcontact">
+      <div class="owner-card">
+        <span class="oc-av">SH</span>
+        <div class="oc-lbl">Talk to the owner</div>
+        <h3>Call or Text Scott Howard</h3>
+        <p class="oc-sub">Call to schedule a free on-site visit — we provide accurate quotes only after seeing your space in person.</p>
+        <a href="tel:6126693621" class="oc-num">612-669-3621</a>
+        <div class="oc-btns">
+          <a href="tel:6126693621" class="oc-btn oc-call">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" fill="currentColor"/></svg>
+            Call Now
+          </a>
+          <a href="sms:6126693621" class="oc-btn oc-text">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Text Now
+          </a>
+        </div>
+        <div class="oc-info">
+          <div class="oc-row"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>24/7 Emergency &amp; Scheduled Service</div>
+          <div class="oc-row"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><a href="mailto:howardscot47@yahoo.com" style="color:inherit">howardscot47@yahoo.com</a></div>
+          <div class="oc-row"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="2"/></svg>305 N Hill St, Marshall, MN 56258</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div><!-- /quotePage -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <span class="logo"><span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M16.5 3.5l4 4-7 7-4-4 7-7z" fill="currentColor"/><path d="M9.5 10.5L3 17v4h4l6.5-6.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/><path d="M4 21l2-5M8 21l1-4M12 21l1-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>Krystal-Klean</span>
+        <p>Premium 24/7 commercial cleaning serving Marshall, Granite Falls, Minnesota and the surrounding region.</p>
+      </div>
+      <div class="foot-col"><h5>Services</h5><a onclick="goQuote()">Office &amp; Corporate Cleaning</a><a onclick="goQuote()">Apartment / Multi-Unit Cleaning</a><a onclick="goQuote()">Post-Construction Cleanup</a></div>
+      <div class="foot-col"><h5>Company</h5><a onclick="navTo('about')">About Krystal-Klean</a><a onclick="navTo('contact')">Contact</a><a onclick="goQuote()">Careers / Hiring</a></div>
+      <div class="foot-col"><h5>Get In Touch</h5><a href="tel:6126693621">612-669-3621</a><a href="mailto:howardscot47@yahoo.com">howardscot47@yahoo.com</a><a onclick="navTo('contact')">305 N Hill St, Marshall, MN 56258</a><a onclick="navTo('contact')">24/7 Emergency &amp; Scheduled</a></div>
+    </div>
+    <div class="foot-bot"><span>© 2026 Krystal-Klean. All rights reserved.</span><span>Powered by <a href="https://codyza.com" target="_blank" rel="noopener">Codyza</a></span></div>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE CALL -->
+<a href="tel:6126693621" class="sticky-call"><svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" fill="currentColor"/></svg>Call Now: 612-669-3621</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
